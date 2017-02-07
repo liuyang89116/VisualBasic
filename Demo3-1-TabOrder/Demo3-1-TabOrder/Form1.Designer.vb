@@ -64,21 +64,23 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Red
         Me.Button1.Location = New System.Drawing.Point(60, 162)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 30)
+        Me.Button1.Size = New System.Drawing.Size(70, 30)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Text = "&Stop"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Green
         Me.Button2.Location = New System.Drawing.Point(205, 163)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(85, 28)
+        Me.Button2.Size = New System.Drawing.Size(70, 30)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Text = "&Go"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Form1
         '
